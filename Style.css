@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+body {
+font-size: 25pt;
+color: white;
+background-color: black;
+
+}
+
+input.text {
+	height: 30px;
+	font-size: 24pt;
+	margin-top: 5px;
+
+
+}
+
+input.submit {
+	height: 50px;
+	font-size: 25pt;
+	margin-left: 200px;
+	margin-top: 50px;
+
+
+}
