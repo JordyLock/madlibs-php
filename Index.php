@@ -18,6 +18,5 @@
 		<p><input class="submit" type="submit" name="submit" value="Verzend"></p>
 
 	</form>
-
 </body>
 </html>
