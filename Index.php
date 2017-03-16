@@ -19,20 +19,20 @@
 </div>
 	
 		<div id="Main">
-		<p>Welk dier zou je nooit als huisdier willen hebben?  <input class="text" type="text" name="remark"></p><br>
-		<p>Wie is de belangrijkste persoon in je leven?  <input class="text" type="text" name="remark"></p><br>
+		<p>Welk dier zou je nooit als huisdier willen hebben?  <input class="text" type="text" name="remark" value="<?php if(isset($_POST[])) echo $_POST[];  ?>"></p><br>
+		<p>Wie is de belangrijkste persoon in je leven?  <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>In welk land zou je graag willen wonen?  <input class="text" type="text" name="remark"></p><br>
+		<p>In welk land zou je graag willen wonen?  <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>Wat doe je als je je verveelt?  <input class="text" type="text" name="remark"></p><br>
+		<p>Wat doe je als je je verveelt?  <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>Met welk speelgoed speelde je als kind het meest? <input class="text" type="text" name="remark"></p><br>
+		<p>Met welk speelgoed speelde je als kind het meest? <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>Bij welke docent spijbel je het liefst?  <input class="text" type="text" name="remark"></p><br>
+		<p>Bij welke docent spijbel je het liefst?  <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>Als je €100.000,- had, wat zou je dan kopen? <input class="text" type="text" name="remark"></p><br>
+		<p>Als je €100.000,- had, wat zou je dan kopen? <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
-		<p>Wat is je favoriete bezigheid? <input class="text" type="text" name="remark"></p><br>
+		<p>Wat is je favoriete bezigheid? <input class="text" type="text" value="<?php if(isset($_POST[])) echo $_POST[];  ?>" name="remark"></p><br>
 
 </div>
 
@@ -50,7 +50,8 @@
 	
 
 
-		<p class="submit"><input class="submit" type="submit" name="submit" value="Verzend"></p>
+		
+
 
 	</form>
 </body>

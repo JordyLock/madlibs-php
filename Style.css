@@ -10,20 +10,21 @@ body {
 	padding-top: 10px;
 font-size: 25pt;
 color: white;
-background-color: black;
+background-color: grey;
 
 }
 a {
 	color: black;
 	display: inline-block;
 	list-style-type: none;
+	text-decoration: none;
 
 
 }
 p.submit {
 
-margin: auto;
- width: 75%;
+	margin: auto;
+ 	width: 75%;
 }
 ul{
 	margin: auto;
@@ -32,6 +33,7 @@ ul{
 	background-color: white;
 	border-radius: 20px;
 	width: 400px;
+
 }
 .menu:hover{
 
