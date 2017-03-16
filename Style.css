@@ -7,9 +7,40 @@
 
 
 body {
+	padding-top: 10px;
 font-size: 25pt;
 color: white;
 background-color: black;
+
+}
+a {
+	color: black;
+	display: inline-block;
+	list-style-type: none;
+
+
+}
+p.submit {
+
+margin: auto;
+ width: 75%;
+}
+ul{
+	margin: auto;
+	text-align: center;
+ 	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 20px;
+	width: 400px;
+}
+.menu:hover{
+
+	color: grey;
+}
+
+li {
+	padding: 20px;
+	display: inline;
 
 }
 
@@ -17,15 +48,44 @@ input.text {
 	height: 30px;
 	font-size: 24pt;
 	margin-top: 5px;
+	float: right;
+
+}
+
+
+input.submit {
+	padding-left: 70px;
+	font-size: 25pt;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+	
+
+
+}
+.submit:hover {
+	padding-left: 70px;
+	font-size: 25pt;
+	color: grey;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+	
 
 
 }
 
-input.submit {
-	height: 50px;
-	font-size: 25pt;
-	margin-left: 200px;
-	margin-top: 50px;
-
+#Main {
+	margin-left: 10px;
+	display: inline-block;
+	width: 75%;
 
 }
