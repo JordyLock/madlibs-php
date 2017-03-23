@@ -67,3 +67,11 @@ p {
 	padding-left: 12px;
 
 }
+
+.copyright {
+	width: 900px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+
+}
