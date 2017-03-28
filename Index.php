@@ -9,7 +9,7 @@
 <div id="Menu">
 	<ul>
 		<li><a class="menu" href="Index.php">Er heerst paniek...</a></li>
-		<li><a class="menu" href="">Onkunde</a></li>
+		<li><a class="menu" href="Onkunde.php">Onkunde</a></li>
 	</ul>
 	<form action="process.php" method="post">
 		

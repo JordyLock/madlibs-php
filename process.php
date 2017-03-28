@@ -8,7 +8,7 @@
 <div id="Menu">
 	<ul>
 		<li><a class="menu" href="Index.php">Home</a></li>
-		<li><a class="menu" href="">Onkunde</a></li>
+		<li><a class="menu" href="Onkunde.php">Onkunde</a></li>
 	</ul>
 	<div id="Main" >
 	<h2>Er heerst paniek...</h2><br>
